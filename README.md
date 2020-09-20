@@ -6,5 +6,5 @@ The project will be read an image that is captured from web camera. Then the ima
 ## Project details: step by step
 1. The web camera will captured a picture and store the pictrue to the local assigned foloder. Then the image will be process by a trained machine learning model to detect the posture of the human being in the image.
 <p>
-  <img src="doc/cap_picture_std.jpg">
+  <img src="doc/cap_picture_std.jpg" width="640" height="360">
 </p>
