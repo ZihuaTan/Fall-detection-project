@@ -23,3 +23,7 @@ pictures show the join keypoints after processing by the Openpose
   <img src="doc/cap_picture_std_rendered.png" width="320" height="180">
   <img src="doc/cap_piture_lying_rendered.png" width="320" height="180">
 </p>
+
+3. The Json that is produced by the Openpose will be used for two different purposes.
+###[1] Standing situation
+When the machine learning detects the person in the image is standing, the Json file will be used to mark the ground area of the image
