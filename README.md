@@ -20,6 +20,6 @@ As you can see below, on the left are the input pictures and on the right are th
 
 pictures show the join keypoints after processing by the Openpose
 <p align="center">
-  <img src="doc/cap_picture_std.jpg" width="320" height="180">
-  <img src="doc/ML_result_for_standing.JPG" width="320" height="180">
+  <img src="doc/cap_picture_std_rendered.png" width="320" height="180">
+  <img src="doc/cap_piture_lying_rendered.png" width="320" height="180">
 </p>
