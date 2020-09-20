@@ -13,5 +13,11 @@ The project will be read an image that is captured from web camera. Then the ima
   <img src="doc/cap_piture_lying.jpg" width="320" height="180">
   <img src="doc/ML_result_for_lying.JPG" width="320" height="180">
 </p>
-Input picture Output result from machine learning model
-
+<style>
+p.a {
+  margin: 0 30px;
+}
+</style>
+<p class="a">
+  Input Output
+</p>
