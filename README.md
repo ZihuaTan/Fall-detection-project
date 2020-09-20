@@ -20,7 +20,8 @@ The project will be read an image that is captured from web camera. Then the ima
 2. The image is sent to the Openpose to generate the join keypoints of human being. This will produce a Json file that contains all the join keypoints of humans in the image.
 
 <p align="center">
-  pictures show the join keypoints after processing by the Openpose                               
+  pictures show the join keypoints after processing by the Openpose         
+  
   <img src="doc/cap_picture_std_rendered.png" width="320" height="180">
   <img src="doc/cap_piture_lying_rendered.png" width="320" height="180">
 </p>
