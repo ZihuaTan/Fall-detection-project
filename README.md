@@ -14,5 +14,5 @@ The project will be read an image that is captured from web camera. Then the ima
   <img src="doc/ML_result_for_lying.JPG" width="320" height="180">
 </p>
 <p align="center">
-Input                 Output
+Input                                                Output
 </p>
