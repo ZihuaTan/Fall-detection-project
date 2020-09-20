@@ -27,5 +27,5 @@ The project will be read an image that is captured from web camera. Then the ima
 </p>
 
 3. The Json that is produced by the Openpose will be used for two different purposes.
-*3a. Standing situation
+a. Standing situation
 When the machine learning detects the person in the image is standing, the Json file will be used to mark the ground area of the image
