@@ -42,3 +42,6 @@ When the machine learning detects the person in the image is standing, the Json 
   <img src="doc/ground.jpg" width="320" height="180">
 </kbd>
 </p>
+
+2. Fall detection:<br>
+blablabla, when
