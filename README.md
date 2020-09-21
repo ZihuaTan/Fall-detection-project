@@ -28,9 +28,9 @@ The project will be read an image that is captured from web camera. Then the ima
 
 **3. The Json that is produced by the Openpose contains the xy coordinates of the join keypoints in the image. It will be used for two different purposes.**
 1. Standing situation:<br>
-When the machine learning detects the person in the image is standing, the Json file will be used to mark the ground area of the image. We will extract the feet coordinates from the Json file and mark these coordinates in the ground.jpg. The ground.jpg is a 
+When the machine learning detects the person in the image is standing, the Json file will be used to mark the ground area of the image. We will extract the feet coordinates from the Json file and mark these coordinates in the ground.jpg. 
 <p align="center">
-  pictures show the join keypoints after processing by the Openpose
+  The ground.jpg is a white background image with the same size as the input image.
   <br>
   <img src="doc/cap_picture_std_rendered.png" width="320" height="180">
   <img src="doc/cap_piture_lying_rendered.png" width="320" height="180">
