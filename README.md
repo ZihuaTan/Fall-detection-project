@@ -69,6 +69,5 @@ After we have the target ground area, we will able to perfrom the fall detection
   <br>
   The person is lying in the target area which triggers the fall detection alarm.
 </p>
-
-  
+## How to build the project:
 
