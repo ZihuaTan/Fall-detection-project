@@ -52,4 +52,4 @@ The program will keep drawing the ground area when the person is walking around 
 </kbd>
 </p>
 2. Fall detection:<br>
-blablabla, when
+After we have the target ground area, we will able to perfrom the fall detection. 
