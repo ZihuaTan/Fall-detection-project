@@ -26,7 +26,7 @@ The project will be read an image that is captured from web camera. Then the ima
   <img src="doc/cap_piture_lying_rendered.png" width="320" height="180">
 </p>
 
-**3. The Json that is produced by the Openpose contains the xy coordinates of the join keypoints in the image. It will be used for two different purposes.**
+**3. The Json that is produced by the Openpose contains the xy coordinates of the join keypoints in the image. It will be used for two different purposes: draw ground area and perform fall detection.**
 
 <p align="center">
   Opempose output join keypoints indices
