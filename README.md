@@ -33,7 +33,7 @@ The project will be read an image that is captured from web camera. Then the ima
   <br>
   <img src="doc/keypoints_pose_25.png" width="242" height="426">
   <br>
-  source from :https://github.com/CMU-Perceptual-Computing-Lab/openpose#quick-start
+  source from :https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/output.md
 </p>
 
 1. Draw ground area:<br>
@@ -52,4 +52,10 @@ The program will keep drawing the ground area when the person is walking around 
 </kbd>
 </p>
 2. Fall detection:<br>
-After we have the target ground area, we will able to perfrom the fall detection. When the machine learning model detects a person is lying, we will extract 
+After we have the target ground area, we will able to perfrom the fall detection. When the machine learning model detects a person is lying, we will extract the coordinates of shouldersn neck and hips from the Json file. Then we will place these coordinates on the ground.jpg file to check whether these coordinates are lying on the target ground area or not. 
+<p align="center"> 
+  <kbd>
+  <img src="doc/mark.jpg" width="320" height="180"> 
+  <img src="doc/marked_ground.jpg" width="320" height="180">
+</kbd>
+</p>
