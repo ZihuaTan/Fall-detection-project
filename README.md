@@ -70,9 +70,9 @@ After we have the target ground area, we will able to perfrom the fall detection
   The person is lying in the target area which triggers the fall detection alarm.
 </p>
 
-**Notice:<br>
-1. This project only work for one object whcih means if there are more than one person show up in the camera, the fall detection will not be activate.
-2. the camera will need to be fixed to make sure the target ground area will not change.**
+**Notice:<br>**
+**1. This project only work for one object whcih means if there are more than one person show up in the camera, the fall detection will not be activate.**
+**2. the camera will need to be fixed to make sure the target ground area will not change.**
 
 ## How to build the project:
 train the ML model
