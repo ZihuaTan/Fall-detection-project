@@ -32,6 +32,8 @@ The project will be read an image that is captured from web camera. Then the ima
   Opempose output join keypoints indices
   <br>
   <img src="doc/keypoints_pose_25.png" width="242" height="426">
+  <br>
+  source from :https://github.com/CMU-Perceptual-Computing-Lab/openpose#quick-start
 </p>
 
 1. Draw ground area:<br>
