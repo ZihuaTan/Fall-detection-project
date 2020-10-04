@@ -52,7 +52,7 @@ The program will keep drawing the ground area when the person is walking around 
 </kbd>
 </p>
 2. Fall detection:<br>
-After we have the target ground area, we will able to perfrom the fall detection. When the machine learning model detects a person is lying, we will extract the coordinates of shoulders neck and hips from the Json file. Then we will place these coordinates on the ground.jpg file to check whether these coordinates are lying on the target ground area or not. The way we check whether the coordinate is lying on the target region or not is to check the color on that coodinate in ground.jpg. If the color on that coordinate in ground.jpg is blue then the coordinate is lying on the target ground area.
+After we have the target ground area, we will able to perfrom the fall detection. When the machine learning model detects a person is lying, we will extract the coordinates of shoulders neck and hips from the Json file. Then we will place these coordinates on the ground.jpg file to check whether these coordinates are lying on the target ground area or not. The way we check whether the coordinate is lying on the target region or not is to check the color on that coodinate in ground.jpg. If the color on that coordinate in ground.jpg is blue then the coordinate is lying on the target ground area. When all the 6 coordinates are lying on the target area, it will trigger the fall detection alarm. 
 <p align="center"> 
   <kbd>
   <img src="doc/lying_for_git1.jpg" width="320" height="180"> 
