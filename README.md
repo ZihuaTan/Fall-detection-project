@@ -72,6 +72,7 @@ After we have the target ground area, we will able to perfrom the fall detection
 
 **Notice:<br>**
 **1. This project only work for one object whcih means if there are more than one person show up in the camera, the fall detection will not be activate.**
+<br>
 **2. the camera will need to be fixed to make sure the target ground area will not change.**
 
 ## How to build the project:
