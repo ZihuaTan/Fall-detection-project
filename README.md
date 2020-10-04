@@ -57,12 +57,18 @@ After we have the target ground area, we will able to perfrom the fall detection
   <kbd>
   <img src="doc/lying_for_git1.jpg" width="320" height="180"> 
   <img src="doc/lying_for_ground1.jpg" width="320" height="180">
+   </kbd>
   <br>
   The person is lying outside the target area which will not trigger the fall detection alarm.
-  <br>
+</p>
+<p align="center"> 
+  <kbd>
   <img src="doc/lying_for_git2.jpg" width="320" height="180"> 
   <img src="doc/lying_for_ground2.jpg" width="320" height="180">
+   </kbd>
   <br>
   The person is lying in the target area which triggers the fall detection alarm.
-</kbd>
 </p>
+
+  
+
