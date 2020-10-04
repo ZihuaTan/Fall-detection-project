@@ -47,8 +47,8 @@ When the machine learning detects the person in the image is standing, the Json 
 The program will keep drawing the ground area as long as the machine learning detects a standing human being. After a while, we will have a completed ground area that was marked in blue in the ground.jpg. 
 <p align="center"> 
   <kbd>
-  <img src="doc/mark_ground.jpg" width="320" height="180"> 
-  <img src="doc/mark_ground2.jpg" width="320" height="180">
+  <img src="doc/mark.jpg" width="320" height="180"> 
+  <img src="doc/marked_ground.jpg" width="320" height="180">
 </kbd>
 </p>
 2. Fall detection:<br>
