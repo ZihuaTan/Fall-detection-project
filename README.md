@@ -20,7 +20,7 @@ The project will be read an image that is captured from web camera. Then the ima
 **2. The image is sent to the Openpose to generate the join keypoints of human being. This will produce a Json file that contains all the join keypoints of humans in the image.**
 
 <p align="center">
-  pictures show the join keypoints after processing by the Openpose
+  Pictures show the join keypoints after processing by the Openpose
   <br>
   <img src="doc/cap_picture_std_rendered.png" width="320" height="180">
   <img src="doc/cap_piture_lying_rendered.png" width="320" height="180">
@@ -33,7 +33,7 @@ The project will be read an image that is captured from web camera. Then the ima
   <br>
   <img src="doc/keypoints_pose_25.png" width="242" height="426">
   <br>
-  source from :https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/output.md
+  Source from :https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/output.md
 </p>
 
 1. Draw ground area:<br>
@@ -52,10 +52,17 @@ The program will keep drawing the ground area when the person is walking around 
 </kbd>
 </p>
 2. Fall detection:<br>
-After we have the target ground area, we will able to perfrom the fall detection. When the machine learning model detects a person is lying, we will extract the coordinates of shouldersn neck and hips from the Json file. Then we will place these coordinates on the ground.jpg file to check whether these coordinates are lying on the target ground area or not. 
+After we have the target ground area, we will able to perfrom the fall detection. When the machine learning model detects a person is lying, we will extract the coordinates of shoulders neck and hips from the Json file. Then we will place these coordinates on the ground.jpg file to check whether these coordinates are lying on the target ground area or not. The way we check whether the coordinate is lying on the target region or not is to check the color on that coodinate in ground.jpg. If the color on that coordinate in ground.jpg is blue then the coordinate is lying on the target ground area.
 <p align="center"> 
   <kbd>
-  <img src="doc/mark.jpg" width="320" height="180"> 
-  <img src="doc/marked_ground.jpg" width="320" height="180">
+  <img src="doc/lying_for_git1.jpg" width="320" height="180"> 
+  <img src="doc/lying_for_ground1.jpg" width="320" height="180">
+  <br>
+  The person is lying outside the target area which will not trigger the fall detection alarm.
+  <br>
+  <img src="doc/lying_for_git2.jpg" width="320" height="180"> 
+  <img src="doc/lying_for_ground2.jpg" width="320" height="180">
+  <br>
+  The person is lying in the target area which triggers the fall detection alarm.
 </kbd>
 </p>
