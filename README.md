@@ -76,10 +76,14 @@ After we have the target ground area, we will able to perfrom the fall detection
 **2. The camera will need to be fixed to make sure the target ground area will not change.**
 
 ## How to build the project:
-First, I will need to have a well trained machine learning model to detect the posture of human being. I am using the tutorial from EdjeElectronics to train my Machine learning model for detecting the posture of human being. Link to the tutorial: https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10. It is a great tutorial for beginner to start a object detection project. The lastest version of tensorflow is not compatible with this tutorial. I am using tensorflow 1.14 to sucessful run the tutorial. I will need the machine learning model to detect two kind of human postures: lying and standing. So, I prepare around 100 pictures for each postures and label them using labelImg. Link to the labelImg: https://github.com/tzutalin/labelImg. 
+1.I will need to have a well trained machine learning model to detect the posture of human being. I was using the tutorial from EdjeElectronics to train my Machine learning model for detecting the posture of human being. Link to the tutorial: https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10. It is a great tutorial for beginner to start a object detection project. The lastest version of tensorflow is not compatible with this tutorial. I was using tensorflow 1.14 to sucessful run the tutorial. I will need the machine learning model to detect two kind of human postures: lying and standing. So, I prepared around 100 pictures for each postures and label them using labelImg. Link to the labelImg: https://github.com/tzutalin/labelImg. Then I followed the tutorial to finish the training process of my machine learning model.
 
+2.After I had my machine learning model ready, I added the Conda environment into PyCharm so that I was able to create a project to use the machine learning model. In order to use this machine learning model on PyCharm, I also need to install the Protobufs and compile the protobuf files again. 
 
+3.it is time to build the openpose system. Link to the openpose: https://github.com/CMU-Perceptual-Computing-Lab/openpose. Download the openpose repository to C:\pose_estimation\openpose. Follow the procedures on the Installation section in: https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/installation.md#installation to build the openpose. 
 
-train the ML model
-build openpose
+4.Download or clone my repository to C:\tensorflow1\models\research\object_detection
+
+5.Run the a_Picturetake_ML.py file on PyCharm
+
 
