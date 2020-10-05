@@ -73,9 +73,14 @@ After we have the target ground area, we will able to perfrom the fall detection
 **Notice:<br>**
 **1. This project only work for one object whcih means if there are more than one person show up in the camera, the fall detection will not be activate.**
 <br>
-**2. the camera will need to be fixed to make sure the target ground area will not change.**
+**2. The camera will need to be fixed to make sure the target ground area will not change.**
 
 ## How to build the project:
+First, you will need to have a well trained machine learning model to detect the posture of human being. I am using the tutorial from EdjeElectronics to train my Machine learning model for detecting the posture of human being. link to the tutorial: https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10. It is a great tutorial for beginner to start a object detection project. The lastest version of tensorflow is not compatible with this tutorial. I am using tensorflow 1.14 to sucessful run the tutorial. We will need the machine learning model to detect two kind of human postures: lying and standing. So, you will need to prepare around 100 pictures for each postures. 
+After you successfully 
+
+
+
 train the ML model
 build openpose
 
